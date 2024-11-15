@@ -9,7 +9,7 @@ const CarCard = ({ car }) => {
       alert('Car deleted');
       window.location.reload();
     } catch (err) {
-      console.error('Error deleting car', err);
+      console.error('Error deleting cars', err);
     }
   };
 

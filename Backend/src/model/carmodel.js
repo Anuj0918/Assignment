@@ -12,7 +12,7 @@ const CarSchema = new mongoose.Schema({
   },
   images: {
     type: [String],
-    validate: [arrayLimit, "{PATH} exceeds the limit of 10"],
+    validate: [arrayLimit, "{PATH} exceeds  limit of 10"],
   },
   tags: {
     type: [String],
